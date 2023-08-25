@@ -1,9 +1,176 @@
+.key{
+    border-radius: 6px;
+    height: 44px;
+    width: 44px;
+    padding: 8px;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 .container{
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/** Keyboard div **/
+
 .keyboard-body{
-    height: ;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #fddbc9;
+    color: #dddddd;
+    border-radius: 30px;
 }
+
+/** Keypad-div **/
+
+.keypad{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: auto;
+    width: auto;
+    padding: 8px;
+    border: 4px solid rgb(176, 137, 137);
+    border-radius: 12px;
+} 
+
+/** line1 **/
+
+
+.function-key{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 48px;
+    height: 22px;
+}
+
+.esc{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.blank{
+    width: 22px;
+}
+
+/** line2 **/
+
+.key-row{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    gap: 6px;
+    align-items: flex-end;
+}
+
+.function-keys{
+    display: flex;
+    font-size: 8px;
+    text-align: center;
+}
+
+
+.delete{
+    width: 75px;
+}
+
+.tab{
+    width: 75px;
+}
+
+.caps-lock-width{
+    width: 93px;
+}
+
+.shift{
+    width: 126px;
+}
+
+.space{
+    width: 307px;
+}
+
+.touch-container{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.touch-pad{
+    display: flex;
+    border: 2px solid rgb(184, 163, 148);
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.command-key{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.rotate-180{
+    rotate: 180deg;
+}
+
+.left{
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.mid{
+    justify-content: center;
+}
+
+.letters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.command{
+    width: 60px;
+}
+
+.nav-key{
+    height: 22px;
+    padding: 4px 8px;
+}
+
+.center-nav {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.caps-lock{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.dot {
+    border: 2px solid #ddd;
+    border-radius: 2px;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
