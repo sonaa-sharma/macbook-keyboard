@@ -1,113 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project_MacKeyboard</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <h1>MacBook Keyboard</h1>
     <div class="container">
-        <div class="keyboard-body">
-            <div class="keypad">
-                <div class="key-row function-keys">
-                    <div class="key function-key esc">esc</div>
-                    <div class="key function-key">F1</div>
-                    <div class="key function-key">F2</div>
-                    <div class="key function-key">F3</div>
-                    <div class="key function-key">F4</div>
-                    <div class="key function-key">F5</div>
-                    <div class="key function-key">F6</div>
-                    <div class="key function-key">F7</div>
-                    <div class="key function-key">F8</div>
-                    <div class="key function-key">F9</div>
-                    <div class="key function-key">F10</div>
-                    <div class="key function-key">F11</div>
-                    <div class="key function-key">F12</div>
-                    <div class="key function-key blank"></div>
-                </div>
-                <div class="key-row">
-                    <div class="key"><div>~</div><div>`</div></div>
-                    <div class="key"><div>!</div><div>1</div></div>
-                    <div class="key"><div>@</div><div>2</div></div>
-                    <div class="key"><div>#</div><div>3</div></div>
-                    <div class="key"><div>$</div><div>4</div></div>
-                    <div class="key"><div>%</div><div>5</div></div>
-                    <div class="key"><div>^</div><div>6</div></div>
-                    <div class="key"><div>&</div><div>7</div></div>
-                    <div class="key"><div>*</div><div>8</div></div>
-                    <div class="key"><div>(</div><div>9</div></div>
-                    <div class="key"><div>)</div><div>0</div></div>
-                    <div class="key"><div>_</div><div>-</div></div>
-                    <div class="key"><div>+</div><div>=</div></div>
-                    <div class="key delete command-key">delete</div>
-                </div>
-                <div class="key-row">
-                    <div class="key tab command-key left">tab</div>
-                    <div class="key letters">Q</div>
-                    <div class="key letters">W</div>
-                    <div class="key letters">E</div>
-                    <div class="key letters">R</div>
-                    <div class="key letters">T</div>
-                    <div class="key letters">Y</div>
-                    <div class="key letters">U</div>
-                    <div class="key letters">I</div>
-                    <div class="key letters">O</div>
-                    <div class="key letters">P</div>
-                    <div class="key"><div>{</div><div>[</div></div>
-                    <div class="key"><div>}</div><div>]</div></div>
-                    <div class="key"><div>|</div><div>\</div></div>
-                </div>
-                <div class="key-row">
-                    <div class="key caps-lock caps-lock-width command-key left"><div class="dot"></div><div>caps lock</div></div>
-                    <div class="key letters">A</div>
-                    <div class="key letters">S</div>
-                    <div class="key letters">D</div>
-                    <div class="key letters">F</div>
-                    <div class="key letters">G</div>
-                    <div class="key letters">H</div>
-                    <div class="key letters">J</div>
-                    <div class="key letters">K</div>
-                    <div class="key letters">L</div>
-                    <div class="key"><div>:</div><div>;</div></div>
-                    <div class="key"><div>"</div><div>'</div></div>
-                    <div class="key caps-lock-width command-key">enter</div>
-                </div>
-                <div class="key-row">
-                    <div class="key shift command-key left">shift</div>
-                    <div class="key letters">Z</div>
-                    <div class="key letters">X</div>
-                    <div class="key letters">C</div>
-                    <div class="key letters">V</div>
-                    <div class="key letters">B</div>
-                    <div class="key letters">N</div>
-                    <div class="key letters">M</div>
-                    <div class="key"><div><</div><div>,</div></div>
-                    <div class="key"><div>></div><div>.</div></div>
-                    <div class="key"><div>?</div><div>/</div></div>
-                    <div class="key shift command-key">shift</div>
-                </div>
-                <div class="key-row">
-                    <div class="key command-key left">fn</div>
-                    <div class="key command-key control"><div>^</div><div>control</div></div>
-                    <div class="key command-key mid">option</div>
-                    <div class="key command-key mid command">command</div>
-                    <div class="key space"></div>
-                    <div class="key command-key mid command">command</div>
-                    <div class="key command-key mid">option</div>
-                    <div class="key nav-key"><</div>
-                    <div>
-                        <div class="key nav-key center-nav">^</div>
-                        <div class="key nav-key center-nav rotate-180">^</div>
-                    </div>
-                    <div class="key nav-key">></div>
-                </div>
+      <div class="keyboard-body">
+        <div class="keypad">
+          <div class="key-row function-keys">
+            <div class="key function-key esc">esc</div>
+            <div class="key function-key">F1</div>
+            <div class="key function-key">F2</div>
+            <div class="key function-key">F3</div>
+            <div class="key function-key">F4</div>
+            <div class="key function-key">F5</div>
+            <div class="key function-key">F6</div>
+            <div class="key function-key">F7</div>
+            <div class="key function-key">F8</div>
+            <div class="key function-key">F9</div>
+            <div class="key function-key">F10</div>
+            <div class="key function-key">F11</div>
+            <div class="key function-key">F12</div>
+            <div class="key function-key blank"></div>
+          </div>
+          <div class="key-row">
+            <div class="key">
+              <div>~</div>
+              <div>`</div>
             </div>
-            <div class="touch-container">
-                <div class="touch-pad"></div>
+            <div class="key">
+              <div>!</div>
+              <div>1</div>
             </div>
+            <div class="key">
+              <div>@</div>
+              <div>2</div>
+            </div>
+            <div class="key">
+              <div>#</div>
+              <div>3</div>
+            </div>
+            <div class="key">
+              <div>$</div>
+              <div>4</div>
+            </div>
+            <div class="key">
+              <div>%</div>
+              <div>5</div>
+            </div>
+            <div class="key">
+              <div>^</div>
+              <div>6</div>
+            </div>
+            <div class="key">
+              <div>&</div>
+              <div>7</div>
+            </div>
+            <div class="key">
+              <div>*</div>
+              <div>8</div>
+            </div>
+            <div class="key">
+              <div>(</div>
+              <div>9</div>
+            </div>
+            <div class="key">
+              <div>)</div>
+              <div>0</div>
+            </div>
+            <div class="key">
+              <div>_</div>
+              <div>-</div>
+            </div>
+            <div class="key">
+              <div>+</div>
+              <div>=</div>
+            </div>
+            <div class="key delete command-key">delete</div>
+          </div>
+          <div class="key-row">
+            <div class="key tab command-key left">tab</div>
+            <div class="key letters">Q</div>
+            <div class="key letters">W</div>
+            <div class="key letters">E</div>
+            <div class="key letters">R</div>
+            <div class="key letters">T</div>
+            <div class="key letters">Y</div>
+            <div class="key letters">U</div>
+            <div class="key letters">I</div>
+            <div class="key letters">O</div>
+            <div class="key letters">P</div>
+            <div class="key">
+              <div>{</div>
+              <div>[</div>
+            </div>
+            <div class="key">
+              <div>}</div>
+              <div>]</div>
+            </div>
+            <div class="key">
+              <div>|</div>
+              <div>\</div>
+            </div>
+          </div>
+          <div class="key-row">
+            <div class="key caps-lock caps-lock-width command-key left">
+              <div class="dot"></div>
+              <div>caps lock</div>
+            </div>
+            <div class="key letters">A</div>
+            <div class="key letters">S</div>
+            <div class="key letters">D</div>
+            <div class="key letters">F</div>
+            <div class="key letters">G</div>
+            <div class="key letters">H</div>
+            <div class="key letters">J</div>
+            <div class="key letters">K</div>
+            <div class="key letters">L</div>
+            <div class="key">
+              <div>:</div>
+              <div>;</div>
+            </div>
+            <div class="key">
+              <div>"</div>
+              <div>'</div>
+            </div>
+            <div class="key caps-lock-width command-key">enter</div>
+          </div>
+          <div class="key-row">
+            <div class="key shift command-key left">shift</div>
+            <div class="key letters">Z</div>
+            <div class="key letters">X</div>
+            <div class="key letters">C</div>
+            <div class="key letters">V</div>
+            <div class="key letters">B</div>
+            <div class="key letters">N</div>
+            <div class="key letters">M</div>
+            <div class="key">
+              <div><</div>
+              <div>,</div>
+            </div>
+            <div class="key">
+              <div>></div>
+              <div>.</div>
+            </div>
+            <div class="key">
+              <div>?</div>
+              <div>/</div>
+            </div>
+            <div class="key shift command-key">shift</div>
+          </div>
+          <div class="key-row">
+            <div class="key command-key left">fn</div>
+            <div class="key command-key command-left">
+              <div>^</div>
+              <div>control</div>
+            </div>
+            <div class="key command-key command-left">
+              <div>⌥</div>
+              <div>option</div>
+            </div>
+            <div class="key command-key command command-left">
+              <div>⌘</div>
+              <div>command</div>
+            </div>
+            <div class="key space"></div>
+            <div class="key command-key command command-right">
+              <div>⌘</div>
+              <div>command</div>
+            </div>
+            <div class="key command-key command-right">
+              <div>⌥</div>
+              <div>option</div>
+            </div>
+            <div class="key nav-key"><</div>
+            <div>
+              <div class="key nav-key center-nav">^</div>
+              <div class="key nav-key center-nav rotate-180">^</div>
+            </div>
+            <div class="key nav-key">></div>
+          </div>
         </div>
+        <div class="touch-container">
+          <div class="touch-pad"></div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
