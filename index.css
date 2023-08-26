@@ -1,6 +1,10 @@
+.root-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .monitor{
-    height: 100px;
-    width: 100px;
     background-color: rgb(62, 90, 90);
 }
 
@@ -22,6 +26,7 @@ h1{
 
 .container{
     display: flex;
+    flex-direction: column;
     margin-top: 0px;
     display: flex;
     justify-content: center;
@@ -203,3 +208,15 @@ h1{
     align-items: flex-start;
 }
 
+.screen {
+    background-image: url('wallpaper.jpg');
+    height: 670px;
+    width: 998px;
+    background-size: cover;
+}
+
+.monitor{
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+}
